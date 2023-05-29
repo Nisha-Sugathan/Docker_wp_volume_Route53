@@ -34,6 +34,11 @@ docker container run -d --name mysql-server --network wp-network   \
 -e MYSQL_PASSWORD="wpuser123"  \
 mysql:8.0.33-debian
 ```
+
+Screenshot of corresponding results:
+
+![wp_mysql_server](https://github.com/Nisha-Sugathan/Docker_wp_volume_Route53/assets/134600837/31b64857-8d90-4118-b962-a4866b24548c)
+
 ### Create wordpress container
 ```
 docker container run -d --name wordpress  --network wp-network  \
